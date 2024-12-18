@@ -1,0 +1,11 @@
+<mat-form-field>
+  <mat-label>{{ "common.time_unit" | translate }}</mat-label>
+  <mat-select [(value)]="timeUnit">
+    @for (option of TIME_UNIT_OPTIONS; track option.value) {
+      <mat-option [value]="option.value">{{ option.label | translate }}</mat-option>
+    }
+  </mat-select>
+</mat-form-field>
+@if (timeUnit()) {
+  <p>{{ "elapsed.message" | translate : { time: (time() | number: '1.0-0'), unit: translatedTimeUnit().toLowerCase() } }}</p>
+}

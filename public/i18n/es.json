@@ -1,0 +1,19 @@
+{
+  "home": {
+    "base_date": "Fecha base",
+    "operation": "Operación",
+    "elapsed": "Tiempo transcurrido"
+  },
+  "common": {
+    "time_unit": "Unidad de tiempo",
+    "time_amount": "Cantidad de {{unit}}",
+    "loading": "Cargando",
+    "seconds": "Segundos",
+    "minutes": "Minutos",
+    "hours": "Horas",
+    "days": "Días"
+  },
+  "elapsed": {
+    "message": "Han pasado {{time}} {{unit}} desde la fecha"
+  }
+}
