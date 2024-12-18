@@ -1,0 +1,19 @@
+{
+  "home": {
+    "base_date": "Base date",
+    "operation": "Operation",
+    "elapsed": "Time Elapsed"
+  },
+  "common": {
+    "time_unit": "Time unit",
+    "time_amount": "Amount of {{unit}}",
+    "loading": "Loading",
+    "seconds": "Seconds",
+    "minutes": "Minutes",
+    "hours": "Hours",
+    "days": "Days"
+  },
+  "elapsed": {
+    "message": "It has been {{time}} {{unit}} since the date"
+  }
+}
